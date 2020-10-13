@@ -1,6 +1,8 @@
-# 🖌️ Template
+# ⬆️📊 Upptime Graphs
 
-This is a starter repository for building Node.js projects at Koj.
+This repository contains the package that generates response time graph images.
+
+[**To get started, visit upptime/upptime →**](https://github.com/upptime/upptime)
 
 <!-- prettier-ignore-start -->
 |   | Status |
@@ -10,26 +12,17 @@ This is a starter repository for building Node.js projects at Koj.
 | PRs | [![Feature Branch Pull Request](https://github.com/upptime/graphs/workflows/Feature%20Branch%20Pull%20Request/badge.svg)](https://github.com/upptime/graphs/actions?query=workflow%3A%22Feature+Branch+Pull+Request%22) [![Hotfix Branch Pull Request](https://github.com/upptime/graphs/workflows/Hotfix%20Branch%20Pull%20Request/badge.svg)](https://github.com/upptime/graphs/actions?query=workflow%3A%22Hotfix+Branch+Pull+Request%22) [![Merge PRs](https://github.com/upptime/graphs/workflows/Merge%20PRs/badge.svg)](https://github.com/upptime/graphs/actions?query=workflow%3A%22Merge+PRs%22) |
 <!-- prettier-ignore-end -->
 
-## ⭐️ Features
+## 🎁 Contributing
 
-- [Semantic Release with Gitmoji](./release.config.js)
-- [Koj's Prettier configuration](./.prettierrc.cjs)
-- [Dependabot configuration](./.github/dependabot.yml)
-- [CI for open-source licenses](./.github/workflows/licensed.yml)
-- [Pull request labeler](./.github/labeler.yml)
-- [Merge PRs on approved reviews](./github/workflows/automerge.yml)
-- [CLA enforcement for new contributors](./github/workflows/cla.yml)
-- [Create PRs from feature/hotfix branches](./github/workflows/feature-pr.yml)
-- [Write code in TypeScript](./src/index.ts)
-- [Tests using Jest](./src/index.spec.ts)
+This repository is for Upptime's Graphs package. We love contributions, so please read our [Contributing Guidelines](https://github.com/upptime-js/.github/blob/master/CONTRIBUTING.md) and [Code of Conduct](https://github.com/upptime-js/.github/blob/master/CODE_OF_CONDUCT.md) and open an issue or make a pull request!
 
-## 💻 Getting started
+### Issues
 
-1. [Create a new repository from this template](https://github.com/upptime/graphs/generate)
-2. Install dependencies using `npm install`
-3. Update package details in `package.json` and `README.md`
-   1. Find and replace `upptime/graphs` with `user/repository`
-   2. Find and replace `@upptime/graphs` with npm project name
+We use the [upptime/upptime](https://github.com/upptime/upptime) repository for issues for all projects, including this one. If you found a bug or have a feature request, [open an issue](https://github.com/upptime/upptime/issues) in the Upptime repository and add the label "graphs".
+
+## 💻 Usage
+
+When you use Upptime, we automatically add the required workflows.
 
 ## 📄 License
 
