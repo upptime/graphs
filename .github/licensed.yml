@@ -8,5 +8,19 @@ allowed:
   - mit
   - cc0-1.0
   - unlicense
+  - 0bsd
 reviewed:
   npm:
+    - abbrev
+    - canvas
+    - color-convert
+    - fs.realpath
+    - glob
+    - lodash.deburr
+    - minizlib
+    - nan
+    - rc
+    - readable-stream
+    - sax
+    - sprintf-js
+    - string_decoder
