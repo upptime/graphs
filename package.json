@@ -9,7 +9,7 @@
   "bin": "dist/cli.js",
   "scripts": {
     "build": "tsc",
-    "test": "jest",
+    "test": "jest --forceExit",
     "test-watch": "jest --watch",
     "coverage": "jest --coverage",
     "update-template": "npx update-template https://github.com/upptime/graphs",
