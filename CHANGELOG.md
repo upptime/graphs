@@ -1,3 +1,41 @@
+## [v1.0.2](https://github.com/upptime/graphs/compare/v1.0.1...v1.0.2) (2020-11-23)
+
+### ⬆️ Dependency updates
+
+- [`0eb441b`](https://github.com/upptime/graphs/commit/0eb441b)  Bump chart.js from 2.9.3 to 2.9.4
+- [`600341a`](https://github.com/upptime/graphs/commit/600341a)  Bump @types/chart.js from 2.9.25 to 2.9.26
+- [`ecc126e`](https://github.com/upptime/graphs/commit/ecc126e)  Bump jest from 26.5.3 to 26.6.0
+- [`f2c04cc`](https://github.com/upptime/graphs/commit/f2c04cc)  Bump @types/jest from 26.0.14 to 26.0.15
+- [`81a0ada`](https://github.com/upptime/graphs/commit/81a0ada)  Bump vsoch/pull-request-action from 1.0.10 to 1.0.11
+- [`3db118e`](https://github.com/upptime/graphs/commit/3db118e)  Bump @types/chart.js from 2.9.26 to 2.9.27
+- [`e0a4148`](https://github.com/upptime/graphs/commit/e0a4148)  Bump jest from 26.6.0 to 26.6.1
+- [`a13c745`](https://github.com/upptime/graphs/commit/a13c745)  Bump ts-jest from 26.4.1 to 26.4.2
+- [`2d6f987`](https://github.com/upptime/graphs/commit/2d6f987)  Bump typescript from 4.0.3 to 4.0.5
+- [`917a40f`](https://github.com/upptime/graphs/commit/917a40f)  Bump ts-jest from 26.4.2 to 26.4.3
+- [`330093d`](https://github.com/upptime/graphs/commit/330093d)  Bump @koj/config from 1.2.5 to 1.2.6
+- [`d5f2543`](https://github.com/upptime/graphs/commit/d5f2543)  Bump semantic-release from 17.2.1 to 17.2.2
+- [`f553a0e`](https://github.com/upptime/graphs/commit/f553a0e)  Bump @octokit/rest from 18.0.6 to 18.0.7
+- [`d1032c1`](https://github.com/upptime/graphs/commit/d1032c1)  Bump @koj/config from 1.2.6 to 1.2.7
+- [`c717451`](https://github.com/upptime/graphs/commit/c717451)  Bump @octokit/rest from 18.0.7 to 18.0.8
+- [`f13ecd3`](https://github.com/upptime/graphs/commit/f13ecd3)  Bump jest from 26.6.1 to 26.6.2
+- [`3168741`](https://github.com/upptime/graphs/commit/3168741)  Bump @octokit/rest from 18.0.8 to 18.0.9
+- [`cf20ef8`](https://github.com/upptime/graphs/commit/cf20ef8)  Bump actions/checkout from v2.3.3 to v2.3.4
+- [`36202d5`](https://github.com/upptime/graphs/commit/36202d5)  Bump @types/fs-extra from 9.0.2 to 9.0.3
+- [`f12ce20`](https://github.com/upptime/graphs/commit/f12ce20)  Bump jest from 26.6.2 to 26.6.3
+- [`15b3c78`](https://github.com/upptime/graphs/commit/15b3c78)  Bump @koj/config from 1.2.7 to 1.2.8
+- [`42908c5`](https://github.com/upptime/graphs/commit/42908c5)  Bump ts-jest from 26.4.3 to 26.4.4
+- [`0d5cf5b`](https://github.com/upptime/graphs/commit/0d5cf5b)  Bump @types/fs-extra from 9.0.3 to 9.0.4
+- [`c3d1446`](https://github.com/upptime/graphs/commit/c3d1446)  Bump @semantic-release/github from 7.1.1 to 7.1.2
+- [`7818b87`](https://github.com/upptime/graphs/commit/7818b87)  Bump @semantic-release/npm from 7.0.6 to 7.0.8
+- [`7eb23d5`](https://github.com/upptime/graphs/commit/7eb23d5)  Bump @types/chart.js from 2.9.27 to 2.9.28
+- [`bd7cc54`](https://github.com/upptime/graphs/commit/bd7cc54)  Update koj-co/template
+- [`174e85b`](https://github.com/upptime/graphs/commit/174e85b)  Bump semantic-release from 17.2.2 to 17.2.3
+- [`419e738`](https://github.com/upptime/graphs/commit/419e738)  Bump vsoch/pull-request-action from 1.0.11 to 1.0.12
+- [`8ad105a`](https://github.com/upptime/graphs/commit/8ad105a)  Bump @koj/config from 1.2.8 to 1.2.9
+- [`83ff108`](https://github.com/upptime/graphs/commit/83ff108)  Bump @semantic-release/github from 7.1.2 to 7.2.0
+- [`a6f2ad2`](https://github.com/upptime/graphs/commit/a6f2ad2)  Bump typescript from 4.0.5 to 4.1.2
+- [`c1cb983`](https://github.com/upptime/graphs/commit/c1cb983)  Bump semantic-release from 17.2.3 to 17.2.4
+
 ## [v1.0.1](https://github.com/upptime/graphs/compare/v1.0.0...v1.0.1) (2020-10-13)
 
 ### 🐛 Bug fixes
