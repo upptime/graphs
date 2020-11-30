@@ -87,6 +87,7 @@ export const generateGraphs = async () => {
     });
     if (!history.data.length) continue;
     const data: [number, string][] = history.data
+      .reverse()
       .filter(
         (item) =>
           item.commit.message.includes(" in ") &&
