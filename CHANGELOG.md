@@ -1,3 +1,9 @@
+## [v1.0.3](https://github.com/upptime/graphs/compare/v1.0.2...v1.0.3) (2020-11-30)
+
+### ⬆️ Dependency updates
+
+- [`f2fc017`](https://github.com/upptime/graphs/commit/f2fc017)  Bump semantic-release from 17.2.4 to 17.3.0
+
 ## [v1.0.2](https://github.com/upptime/graphs/compare/v1.0.1...v1.0.2) (2020-11-23)
 
 ### ⬆️ Dependency updates
