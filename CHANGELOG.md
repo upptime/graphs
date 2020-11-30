@@ -1,3 +1,9 @@
+## [v1.0.4](https://github.com/upptime/graphs/compare/v1.0.3...v1.0.4) (2020-11-30)
+
+### 🐛 Bug fixes
+
+- [`f6c0328`](https://github.com/upptime/graphs/commit/f6c0328)  Reverse history.data before generating
+
 ## [v1.0.3](https://github.com/upptime/graphs/compare/v1.0.2...v1.0.3) (2020-11-30)
 
 ### ⬆️ Dependency updates
