@@ -60,6 +60,10 @@ export const generateGraphs = async () => {
     let uptimeMonth = 0;
     let uptimeYear = 0;
     let responseTime = 0;
+    let timeDay = 0;
+    let timeWeek = 0;
+    let timeMonth = 0;
+    let timeYear = 0;
     try {
       const api: {
         name: string;
@@ -72,6 +76,10 @@ export const generateGraphs = async () => {
         uptimeMonth?: string;
         uptimeYear?: string;
         time: number;
+        timeDay?: number;
+        timeWeek?: number;
+        timeMonth?: number;
+        timeYear?: number;
       }[] = await readJson(join(".", "history", "summary.json"));
       const item = api.find((site) => site.slug === slug);
       if (item) {
@@ -81,6 +89,10 @@ export const generateGraphs = async () => {
         uptimeMonth = parseFloat(item.uptimeMonth || "0");
         uptimeYear = parseFloat(item.uptimeYear || "0");
         responseTime = item.time;
+        timeDay = item.timeDay || 0;
+        timeWeek = item.timeWeek || 0;
+        timeMonth = item.timeMonth || 0;
+        timeYear = item.timeYear || 0;
       }
     } catch (error) {}
     await ensureDir(join(".", "api", slug));
@@ -119,6 +131,30 @@ export const generateGraphs = async () => {
       label: "response time",
       message: `${responseTime} ms`,
       color: getResponseTimeColor(responseTime),
+    });
+    await writeJson(join(".", "api", slug, "response-time-day.json"), {
+      schemaVersion: 1,
+      label: "response time 24h",
+      message: `${timeDay} ms`,
+      color: getResponseTimeColor(timeDay),
+    });
+    await writeJson(join(".", "api", slug, "response-time-week.json"), {
+      schemaVersion: 1,
+      label: "response time 7d",
+      message: `${timeWeek} ms`,
+      color: getResponseTimeColor(timeWeek),
+    });
+    await writeJson(join(".", "api", slug, "response-time-month.json"), {
+      schemaVersion: 1,
+      label: "response time 30d",
+      message: `${timeMonth} ms`,
+      color: getResponseTimeColor(timeMonth),
+    });
+    await writeJson(join(".", "api", slug, "response-time-year.json"), {
+      schemaVersion: 1,
+      label: "response time 1y",
+      message: `${timeYear} ms`,
+      color: getResponseTimeColor(timeYear),
     });
 
     const history = await octokit.repos.listCommits({
