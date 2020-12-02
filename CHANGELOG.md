@@ -1,3 +1,9 @@
+## [v1.1.1](https://github.com/upptime/graphs/compare/v1.1.0...v1.1.1) (2020-12-02)
+
+### ♻️ Updates
+
+- [`0285d65`](https://github.com/upptime/graphs/commit/0285d65)  Add response time duration graphs
+
 ## [v1.1.0](https://github.com/upptime/graphs/compare/v1.0.4...v1.1.0) (2020-12-02)
 
 ### ✨ New features
