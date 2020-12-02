@@ -1,3 +1,13 @@
+## [v1.1.0](https://github.com/upptime/graphs/compare/v1.0.4...v1.1.0) (2020-12-02)
+
+### ✨ New features
+
+- [`ade1b71`](https://github.com/upptime/graphs/commit/ade1b71)  Add graphs for uptime durations
+
+### ⬆️ Dependency updates
+
+- [`4cebd21`](https://github.com/upptime/graphs/commit/4cebd21)  Bump @types/jest from 26.0.15 to 26.0.16
+
 ## [v1.0.4](https://github.com/upptime/graphs/compare/v1.0.3...v1.0.4) (2020-11-30)
 
 ### 🐛 Bug fixes
