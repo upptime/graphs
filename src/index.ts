@@ -1,11 +1,36 @@
 import { Octokit } from "@octokit/rest";
 import slugify from "@sindresorhus/slugify";
-import { readFile, writeFile, ensureDir, writeJson, readJson } from "fs-extra";
+import { CanvasRenderService } from "chartjs-node-canvas";
+import { ensureDir, readFile, readJson, writeFile, writeJson } from "fs-extra";
 import { safeLoad } from "js-yaml";
 import { join } from "path";
-import { CanvasRenderService } from "chartjs-node-canvas";
 
 const canvasRenderService = new CanvasRenderService(600, 400);
+
+const getUptimeColor = (uptime: number) =>
+  uptime > 95
+    ? "brightgreen"
+    : uptime > 90
+    ? "green"
+    : uptime > 85
+    ? "yellowgreen"
+    : uptime > 80
+    ? "yellow"
+    : uptime > 75
+    ? "orange"
+    : "red";
+const getResponseTimeColor = (responseTime: number) =>
+  responseTime < 200
+    ? "brightgreen"
+    : responseTime < 400
+    ? "green"
+    : responseTime < 600
+    ? "yellowgreen"
+    : responseTime < 800
+    ? "yellow"
+    : responseTime < 1000
+    ? "orange"
+    : "red";
 
 export const generateGraphs = async () => {
   const config = safeLoad(await readFile(join(".", ".upptimerc.yml"), "utf8")) as {
@@ -30,16 +55,31 @@ export const generateGraphs = async () => {
     const slug = slugify(site.name);
 
     let uptime = 0;
+    let uptimeDay = 0;
+    let uptimeWeek = 0;
+    let uptimeMonth = 0;
+    let uptimeYear = 0;
     let responseTime = 0;
     try {
       const api: {
+        name: string;
+        url: string;
         slug: string;
+        status: string;
         uptime: string;
+        uptimeDay?: string;
+        uptimeWeek?: string;
+        uptimeMonth?: string;
+        uptimeYear?: string;
         time: number;
       }[] = await readJson(join(".", "history", "summary.json"));
       const item = api.find((site) => site.slug === slug);
       if (item) {
         uptime = parseFloat(item.uptime);
+        uptimeDay = parseFloat(item.uptimeDay || "0");
+        uptimeWeek = parseFloat(item.uptimeWeek || "0");
+        uptimeMonth = parseFloat(item.uptimeMonth || "0");
+        uptimeYear = parseFloat(item.uptimeYear || "0");
         responseTime = item.time;
       }
     } catch (error) {}
@@ -48,35 +88,37 @@ export const generateGraphs = async () => {
       schemaVersion: 1,
       label: "uptime",
       message: `${uptime}%`,
-      color:
-        uptime > 95
-          ? "brightgreen"
-          : uptime > 90
-          ? "green"
-          : uptime > 85
-          ? "yellowgreen"
-          : uptime > 80
-          ? "yellow"
-          : uptime > 75
-          ? "orange"
-          : "red",
+      color: getUptimeColor(uptime),
+    });
+    await writeJson(join(".", "api", slug, "uptime-day.json"), {
+      schemaVersion: 1,
+      label: "uptime 24h",
+      message: `${uptimeDay}%`,
+      color: getUptimeColor(uptimeDay),
+    });
+    await writeJson(join(".", "api", slug, "uptime-week.json"), {
+      schemaVersion: 1,
+      label: "uptime 7d",
+      message: `${uptimeWeek}%`,
+      color: getUptimeColor(uptimeWeek),
+    });
+    await writeJson(join(".", "api", slug, "uptime-month.json"), {
+      schemaVersion: 1,
+      label: "uptime 30d",
+      message: `${uptimeMonth}%`,
+      color: getUptimeColor(uptimeMonth),
+    });
+    await writeJson(join(".", "api", slug, "uptime-year.json"), {
+      schemaVersion: 1,
+      label: "uptime 1y",
+      message: `${uptimeYear}%`,
+      color: getUptimeColor(uptimeYear),
     });
     await writeJson(join(".", "api", slug, "response-time.json"), {
       schemaVersion: 1,
       label: "response time",
       message: `${responseTime} ms`,
-      color:
-        responseTime < 200
-          ? "brightgreen"
-          : responseTime < 400
-          ? "green"
-          : responseTime < 600
-          ? "yellowgreen"
-          : responseTime < 800
-          ? "yellow"
-          : responseTime < 1000
-          ? "orange"
-          : "red",
+      color: getResponseTimeColor(responseTime),
     });
 
     const history = await octokit.repos.listCommits({
