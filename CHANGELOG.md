@@ -1,3 +1,11 @@
+## v1.2.1 (2020-12-03)
+
+[📝 Release notes](https://github.com/upptime/graphs/releases/tag/v1.2.1) · [💻 Compare](https://github.com/upptime/graphs/compare/v1.2.0...v1.2.1) · [🔖 Tag](https://github.com/upptime/graphs/tree/v1.2.1) · 🗄️ Archive ([zip](https://github.com/upptime/graphs/archive/v1.2.1.zip) · [tar.gz](https://github.com/upptime/graphs/archive/v1.2.1.tar.gz))
+
+### 🐛 Bug fixes
+
+- [`20aef14`](https://github.com/upptime/graphs/commit/20aef14)  Ensure dir exists before writing
+
 ## v1.2.0 (2020-12-03)
 
 [📝 Release notes](https://github.com/upptime/graphs/releases/tag/v1.2.0) · [💻 Compare](https://github.com/upptime/graphs/compare/v1.1.1...v1.2.0) · [🔖 Tag](https://github.com/upptime/graphs/tree/v1.2.0) · 🗄️ Archive ([zip](https://github.com/upptime/graphs/archive/v1.2.0.zip) · [tar.gz](https://github.com/upptime/graphs/archive/v1.2.0.tar.gz))
