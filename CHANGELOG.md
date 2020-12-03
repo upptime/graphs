@@ -1,3 +1,15 @@
+## v1.2.0 (2020-12-03)
+
+[📝 Release notes](https://github.com/upptime/graphs/releases/tag/v1.2.0) · [💻 Compare](https://github.com/upptime/graphs/compare/v1.1.1...v1.2.0) · [🔖 Tag](https://github.com/upptime/graphs/tree/v1.2.0) · 🗄️ Archive ([zip](https://github.com/upptime/graphs/archive/v1.2.0.zip) · [tar.gz](https://github.com/upptime/graphs/archive/v1.2.0.tar.gz))
+
+### ✨ New features
+
+- [`64cfea8`](https://github.com/upptime/graphs/commit/64cfea8)  Generate graphs for each duration
+
+### ⬆️ Dependency updates
+
+- [`9b3d3a3`](https://github.com/upptime/graphs/commit/9b3d3a3)  Bump @koj/config from 1.2.9 to 1.2.11
+
 ## [v1.1.1](https://github.com/upptime/graphs/compare/v1.1.0...v1.1.1) (2020-12-02)
 
 ### ♻️ Updates
