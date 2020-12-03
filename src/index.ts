@@ -2,7 +2,7 @@ import { Octokit } from "@octokit/rest";
 import slugify from "@sindresorhus/slugify";
 import { CanvasRenderService } from "chartjs-node-canvas";
 import dayjs from "dayjs";
-import { ensureDir, readFile, readJson, writeFile, writeJson } from "fs-extra";
+import { ensureDir, ensureFile, readFile, readJson, writeFile, writeJson } from "fs-extra";
 import { safeLoad } from "js-yaml";
 import { join } from "path";
 
@@ -217,6 +217,7 @@ export const generateGraphs = async () => {
     ];
 
     for await (const dataItem of dataItems) {
+      await ensureFile(join(".", "graphs", dataItem[0]));
       await writeFile(
         join(".", "graphs", dataItem[0]),
         await canvasRenderService.renderToBuffer({
@@ -256,6 +257,7 @@ export const generateGraphs = async () => {
       );
     }
 
+    await ensureFile(join(".", "graphs", slug, "response-time.png"));
     await writeFile(
       join(".", "graphs", slug, "response-time.png"),
       await canvasRenderService.renderToBuffer({
