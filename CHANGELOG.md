@@ -1,3 +1,11 @@
+## v1.2.2 (2020-12-03)
+
+[📝 Release notes](https://github.com/upptime/graphs/releases/tag/v1.2.2) · [💻 Compare](https://github.com/upptime/graphs/compare/v1.2.1...v1.2.2) · [🔖 Tag](https://github.com/upptime/graphs/tree/v1.2.2) · 🗄️ Archive ([zip](https://github.com/upptime/graphs/archive/v1.2.2.zip) · [tar.gz](https://github.com/upptime/graphs/archive/v1.2.2.tar.gz))
+
+### 🐛 Bug fixes
+
+- [`3a41059`](https://github.com/upptime/graphs/commit/3a41059)  Fix data for generating graphs
+
 ## v1.2.1 (2020-12-03)
 
 [📝 Release notes](https://github.com/upptime/graphs/releases/tag/v1.2.1) · [💻 Compare](https://github.com/upptime/graphs/compare/v1.2.0...v1.2.1) · [🔖 Tag](https://github.com/upptime/graphs/tree/v1.2.1) · 🗄️ Archive ([zip](https://github.com/upptime/graphs/archive/v1.2.1.zip) · [tar.gz](https://github.com/upptime/graphs/archive/v1.2.1.tar.gz))
