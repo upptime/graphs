@@ -79,6 +79,7 @@ export const generateGraphs = async () => {
 
   for await (const site of config.sites) {
     const slug = slugify(site.name);
+    if (!slug) continue;
 
     let uptime = 0;
     let uptimeDay = 0;
@@ -223,12 +224,12 @@ export const generateGraphs = async () => {
         await canvasRenderService.renderToBuffer({
           type: "line",
           data: {
-            labels: [1, ...responseTimes.map((item) => item[0])],
+            labels: [1, ...dataItem[1].map((item) => item[0])],
             datasets: [
               {
                 backgroundColor: "#89e0cf",
                 borderColor: "#1abc9c",
-                data: [1, ...responseTimes.map((item) => item[1])],
+                data: [1, ...dataItem[1].map((item) => item[1])],
               },
             ],
           },
