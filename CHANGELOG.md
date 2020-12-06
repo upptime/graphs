@@ -1,3 +1,16 @@
+## v1.2.3 (2020-12-06)
+
+[📝 Release notes](https://github.com/upptime/graphs/releases/tag/v1.2.3) · [💻 Compare](https://github.com/upptime/graphs/compare/v1.2.2...v1.2.3) · [🔖 Tag](https://github.com/upptime/graphs/tree/v1.2.3) · 🗄️ Archive ([zip](https://github.com/upptime/graphs/archive/v1.2.3.zip) · [tar.gz](https://github.com/upptime/graphs/archive/v1.2.3.tar.gz))
+
+### 🐛 Bug fixes
+
+- [`cf2707e`](https://github.com/upptime/graphs/commit/cf2707e)  Reverse data for graphs (upptime/upptime#82)
+(Issues: [`upptime/upptime#82`](https://github.com/upptime/upptime/issues/82))
+
+### ⬆️ Dependency updates
+
+- [`3df7976`](https://github.com/upptime/graphs/commit/3df7976)  Bump @semantic-release/npm from 7.0.8 to 7.0.9
+
 ## v1.2.2 (2020-12-03)
 
 [📝 Release notes](https://github.com/upptime/graphs/releases/tag/v1.2.2) · [💻 Compare](https://github.com/upptime/graphs/compare/v1.2.1...v1.2.2) · [🔖 Tag](https://github.com/upptime/graphs/tree/v1.2.2) · 🗄️ Archive ([zip](https://github.com/upptime/graphs/archive/v1.2.2.zip) · [tar.gz](https://github.com/upptime/graphs/archive/v1.2.2.tar.gz))
