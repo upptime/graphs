@@ -224,12 +224,12 @@ export const generateGraphs = async () => {
         await canvasRenderService.renderToBuffer({
           type: "line",
           data: {
-            labels: [1, ...dataItem[1].map((item) => item[0])],
+            labels: [1, ...dataItem[1].map((item) => item[0]).reverse()],
             datasets: [
               {
                 backgroundColor: "#89e0cf",
                 borderColor: "#1abc9c",
-                data: [1, ...dataItem[1].map((item) => item[1])],
+                data: [1, ...dataItem[1].map((item) => item[1]).reverse()],
               },
             ],
           },
@@ -264,12 +264,12 @@ export const generateGraphs = async () => {
       await canvasRenderService.renderToBuffer({
         type: "line",
         data: {
-          labels: [1, ...responseTimes.map((item) => item[0])],
+          labels: [1, ...responseTimes.map((item) => item[0]).reverse()],
           datasets: [
             {
               backgroundColor: "#89e0cf",
               borderColor: "#1abc9c",
-              data: [1, ...responseTimes.map((item) => item[1])],
+              data: [1, ...responseTimes.map((item) => item[1]).reverse()],
             },
           ],
         },
