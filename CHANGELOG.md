@@ -1,3 +1,18 @@
+## v1.2.4 (2020-12-14)
+
+[📝 Release notes](https://github.com/upptime/graphs/releases/tag/v1.2.4) · [💻 Compare](https://github.com/upptime/graphs/compare/v1.2.3...v1.2.4) · [🔖 Tag](https://github.com/upptime/graphs/tree/v1.2.4) · 🗄️ Archive ([zip](https://github.com/upptime/graphs/archive/v1.2.4.zip) · [tar.gz](https://github.com/upptime/graphs/archive/v1.2.4.tar.gz))
+
+### ⬆️ Dependency updates
+
+- [`8863b82`](https://github.com/upptime/graphs/commit/8863b82)  Bump dayjs from 1.9.6 to 1.9.7
+- [`2372134`](https://github.com/upptime/graphs/commit/2372134)  Bump js-yaml from 3.14.0 to 3.14.1
+- [`ee79475`](https://github.com/upptime/graphs/commit/ee79475)  Bump @types/jest from 26.0.16 to 26.0.17
+- [`520a607`](https://github.com/upptime/graphs/commit/520a607)  Bump @types/jest from 26.0.17 to 26.0.18
+- [`5cdbe29`](https://github.com/upptime/graphs/commit/5cdbe29)  Bump actions/setup-node from v2.1.2 to v2.1.3
+- [`d92827e`](https://github.com/upptime/graphs/commit/d92827e)  Bump @types/jest from 26.0.18 to 26.0.19
+- [`404221a`](https://github.com/upptime/graphs/commit/404221a)  Bump @types/fs-extra from 9.0.4 to 9.0.5
+- [`58a64b1`](https://github.com/upptime/graphs/commit/58a64b1)  Bump ini from 1.3.5 to 1.3.7
+
 ## v1.2.3 (2020-12-06)
 
 [📝 Release notes](https://github.com/upptime/graphs/releases/tag/v1.2.3) · [💻 Compare](https://github.com/upptime/graphs/compare/v1.2.2...v1.2.3) · [🔖 Tag](https://github.com/upptime/graphs/tree/v1.2.3) · 🗄️ Archive ([zip](https://github.com/upptime/graphs/archive/v1.2.3.zip) · [tar.gz](https://github.com/upptime/graphs/archive/v1.2.3.tar.gz))
