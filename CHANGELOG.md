@@ -1,3 +1,13 @@
+## v1.2.5 (2020-12-21)
+
+[📝 Release notes](https://github.com/upptime/graphs/releases/tag/v1.2.5) · [💻 Compare](https://github.com/upptime/graphs/compare/v1.2.4...v1.2.5) · [🔖 Tag](https://github.com/upptime/graphs/tree/v1.2.5) · 🗄️ Archive ([zip](https://github.com/upptime/graphs/archive/v1.2.5.zip) · [tar.gz](https://github.com/upptime/graphs/archive/v1.2.5.tar.gz))
+
+### ⬆️ Dependency updates
+
+- [`30ecc21`](https://github.com/upptime/graphs/commit/30ecc21)  Bump typescript from 4.1.2 to 4.1.3
+- [`3b084c8`](https://github.com/upptime/graphs/commit/3b084c8)  Bump @types/chart.js from 2.9.28 to 2.9.29
+- [`8182d19`](https://github.com/upptime/graphs/commit/8182d19)  Bump actions/setup-node from v2.1.3 to v2.1.4
+
 ## v1.2.4 (2020-12-14)
 
 [📝 Release notes](https://github.com/upptime/graphs/releases/tag/v1.2.4) · [💻 Compare](https://github.com/upptime/graphs/compare/v1.2.3...v1.2.4) · [🔖 Tag](https://github.com/upptime/graphs/tree/v1.2.4) · 🗄️ Archive ([zip](https://github.com/upptime/graphs/archive/v1.2.4.zip) · [tar.gz](https://github.com/upptime/graphs/archive/v1.2.4.tar.gz))
