@@ -24,3 +24,4 @@ reviewed:
     - sax
     - sprintf-js
     - string_decoder
+    - argparse
