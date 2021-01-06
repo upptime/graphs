@@ -1,3 +1,18 @@
+## v1.2.8 (2021-01-06)
+
+[📝 Release notes](https://github.com/upptime/graphs/releases/tag/v1.2.8) · [💻 Compare](https://github.com/upptime/graphs/compare/v1.2.7...v1.2.8) · [🔖 Tag](https://github.com/upptime/graphs/tree/v1.2.8) · 🗄️ Archive ([zip](https://github.com/upptime/graphs/archive/v1.2.8.zip) · [tar.gz](https://github.com/upptime/graphs/archive/v1.2.8.tar.gz))
+
+### ♻️ Updates
+
+- [`8c5f444`](https://github.com/upptime/graphs/commit/8c5f444)  Change safeLoad -&gt; lad
+
+### ⬆️ Dependency updates
+
+- [`c3de99c`](https://github.com/upptime/graphs/commit/c3de99c)  Bump js-yaml from 3.14.1 to 4.0.0
+- [`c1fd010`](https://github.com/upptime/graphs/commit/c1fd010)  Bump dayjs from 1.9.8 to 1.10.1
+- [`b2bf465`](https://github.com/upptime/graphs/commit/b2bf465)  Bump dayjs from 1.10.1 to 1.10.2
+- [`8f5b0e5`](https://github.com/upptime/graphs/commit/8f5b0e5)  Bump @types/js-yaml from 3.12.5 to 4.0.0
+
 ## v1.2.7 (2021-01-04)
 
 [📝 Release notes](https://github.com/upptime/graphs/releases/tag/v1.2.7) · [💻 Compare](https://github.com/upptime/graphs/compare/v1.2.6...v1.2.7) · [🔖 Tag](https://github.com/upptime/graphs/tree/v1.2.7) · 🗄️ Archive ([zip](https://github.com/upptime/graphs/archive/v1.2.7.zip) · [tar.gz](https://github.com/upptime/graphs/archive/v1.2.7.tar.gz))
