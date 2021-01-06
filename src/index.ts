@@ -3,7 +3,7 @@ import slugify from "@sindresorhus/slugify";
 import { CanvasRenderService } from "chartjs-node-canvas";
 import dayjs from "dayjs";
 import { ensureDir, ensureFile, readFile, readJson, writeFile, writeJson } from "fs-extra";
-import { safeLoad } from "js-yaml";
+import { load } from "js-yaml";
 import { join } from "path";
 
 const canvasRenderService = new CanvasRenderService(600, 400);
@@ -59,7 +59,7 @@ const getResponseTimeColor = (responseTime: number) =>
     : "red";
 
 export const generateGraphs = async () => {
-  const config = safeLoad(await readFile(join(".", ".upptimerc.yml"), "utf8")) as {
+  const config = load(await readFile(join(".", ".upptimerc.yml"), "utf8")) as {
     sites: { name: string; url: string }[];
     owner: string;
     repo: string;
