@@ -1,3 +1,11 @@
+## v1.2.9 (2021-01-11)
+
+[📝 Release notes](https://github.com/upptime/graphs/releases/tag/v1.2.9) · [💻 Compare](https://github.com/upptime/graphs/compare/v1.2.8...v1.2.9) · [🔖 Tag](https://github.com/upptime/graphs/tree/v1.2.9) · 🗄️ Archive ([zip](https://github.com/upptime/graphs/archive/v1.2.9.zip) · [tar.gz](https://github.com/upptime/graphs/archive/v1.2.9.tar.gz))
+
+### ⬆️ Dependency updates
+
+- [`23ca34a`](https://github.com/upptime/graphs/commit/23ca34a)  Bump @types/jest from 26.0.19 to 26.0.20
+
 ## v1.2.8 (2021-01-06)
 
 [📝 Release notes](https://github.com/upptime/graphs/releases/tag/v1.2.8) · [💻 Compare](https://github.com/upptime/graphs/compare/v1.2.7...v1.2.8) · [🔖 Tag](https://github.com/upptime/graphs/tree/v1.2.8) · 🗄️ Archive ([zip](https://github.com/upptime/graphs/archive/v1.2.8.zip) · [tar.gz](https://github.com/upptime/graphs/archive/v1.2.8.tar.gz))
