@@ -1,3 +1,12 @@
+## v1.2.10 (2021-01-18)
+
+[📝 Release notes](https://github.com/upptime/graphs/releases/tag/v1.2.10) · [💻 Compare](https://github.com/upptime/graphs/compare/v1.2.9...v1.2.10) · [🔖 Tag](https://github.com/upptime/graphs/tree/v1.2.10) · 🗄️ Archive ([zip](https://github.com/upptime/graphs/archive/v1.2.10.zip) · [tar.gz](https://github.com/upptime/graphs/archive/v1.2.10.tar.gz))
+
+### ⬆️ Dependency updates
+
+- [`9cce792`](https://github.com/upptime/graphs/commit/9cce792)  Bump dayjs from 1.10.2 to 1.10.3
+- [`add2d3c`](https://github.com/upptime/graphs/commit/add2d3c)  Bump semantic-release from 17.3.1 to 17.3.2
+
 ## v1.2.9 (2021-01-11)
 
 [📝 Release notes](https://github.com/upptime/graphs/releases/tag/v1.2.9) · [💻 Compare](https://github.com/upptime/graphs/compare/v1.2.8...v1.2.9) · [🔖 Tag](https://github.com/upptime/graphs/tree/v1.2.9) · 🗄️ Archive ([zip](https://github.com/upptime/graphs/archive/v1.2.9.zip) · [tar.gz](https://github.com/upptime/graphs/archive/v1.2.9.tar.gz))
