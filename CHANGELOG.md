@@ -1,3 +1,15 @@
+## v1.2.11 (2021-01-25)
+
+[📝 Release notes](https://github.com/upptime/graphs/releases/tag/v1.2.11) · [💻 Compare](https://github.com/upptime/graphs/compare/v1.2.10...v1.2.11) · [🔖 Tag](https://github.com/upptime/graphs/tree/v1.2.11) · 🗄️ Archive ([zip](https://github.com/upptime/graphs/archive/v1.2.11.zip) · [tar.gz](https://github.com/upptime/graphs/archive/v1.2.11.tar.gz))
+
+### ⬆️ Dependency updates
+
+- [`9604444`](https://github.com/upptime/graphs/commit/9604444)  Bump @semantic-release/npm from 7.0.9 to 7.0.10
+- [`034c3a2`](https://github.com/upptime/graphs/commit/034c3a2)  Bump semantic-release from 17.3.2 to 17.3.3
+- [`78cc0af`](https://github.com/upptime/graphs/commit/78cc0af)  Bump fs-extra from 9.0.1 to 9.1.0
+- [`439eb98`](https://github.com/upptime/graphs/commit/439eb98)  Bump semantic-release from 17.3.3 to 17.3.4
+- [`0daf931`](https://github.com/upptime/graphs/commit/0daf931)  Bump semantic-release from 17.3.4 to 17.3.6
+
 ## v1.2.10 (2021-01-18)
 
 [📝 Release notes](https://github.com/upptime/graphs/releases/tag/v1.2.10) · [💻 Compare](https://github.com/upptime/graphs/compare/v1.2.9...v1.2.10) · [🔖 Tag](https://github.com/upptime/graphs/tree/v1.2.10) · 🗄️ Archive ([zip](https://github.com/upptime/graphs/archive/v1.2.10.zip) · [tar.gz](https://github.com/upptime/graphs/archive/v1.2.10.tar.gz))
