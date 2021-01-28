@@ -1,12 +1,12 @@
 import { Octokit } from "@octokit/rest";
 import slugify from "@sindresorhus/slugify";
-import { CanvasRenderService } from "chartjs-node-canvas";
+import { ChartJSNodeCanvas } from "chartjs-node-canvas";
 import dayjs from "dayjs";
 import { ensureDir, ensureFile, readFile, readJson, writeFile, writeJson } from "fs-extra";
 import { load } from "js-yaml";
 import { join } from "path";
 
-const canvasRenderService = new CanvasRenderService(600, 400);
+const canvasRenderService = new ChartJSNodeCanvas({ width: 600, height: 400 });
 
 /** Get commits for a history file */
 const getHistoryItems = async (
