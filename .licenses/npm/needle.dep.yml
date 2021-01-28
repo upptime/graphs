@@ -1,6 +1,6 @@
 ---
 name: needle
-version: 2.5.2
+version: 2.6.0
 type: npm
 summary: The leanest and most handsome HTTP client in the Nodelands.
 homepage: https://github.com/tomas/needle#readme

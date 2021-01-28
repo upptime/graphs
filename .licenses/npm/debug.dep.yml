@@ -1,6 +1,6 @@
 ---
 name: debug
-version: 3.2.6
+version: 3.2.7
 type: npm
 summary: small debugging utility
 homepage: https://github.com/visionmedia/debug#readme
