@@ -1,3 +1,19 @@
+## v1.2.12 (2021-01-28)
+
+[📝 Release notes](https://github.com/upptime/graphs/releases/tag/v1.2.12) · [💻 Compare](https://github.com/upptime/graphs/compare/v1.2.11...v1.2.12) · [🔖 Tag](https://github.com/upptime/graphs/tree/v1.2.12) · 🗄️ Archive ([zip](https://github.com/upptime/graphs/archive/v1.2.12.zip) · [tar.gz](https://github.com/upptime/graphs/archive/v1.2.12.tar.gz))
+
+### ♻️ Updates
+
+- [`2491b83`](https://github.com/upptime/graphs/commit/2491b83)  Use updated function (fixed upptime/upptime#236)
+(Issues: [`upptime/upptime#236`](https://github.com/upptime/upptime/issues/236))
+
+### ⬆️ Dependency updates
+
+- [`19400b9`](https://github.com/upptime/graphs/commit/19400b9)  Bump @types/chart.js from 2.9.29 to 2.9.30
+- [`2750ad5`](https://github.com/upptime/graphs/commit/2750ad5)  Bump semantic-release from 17.3.6 to 17.3.7
+- [`d215408`](https://github.com/upptime/graphs/commit/d215408)  Bump dayjs from 1.10.3 to 1.10.4
+- [`560a86a`](https://github.com/upptime/graphs/commit/560a86a)  Update chartjs-node-canvas
+
 ## v1.2.11 (2021-01-25)
 
 [📝 Release notes](https://github.com/upptime/graphs/releases/tag/v1.2.11) · [💻 Compare](https://github.com/upptime/graphs/compare/v1.2.10...v1.2.11) · [🔖 Tag](https://github.com/upptime/graphs/tree/v1.2.11) · 🗄️ Archive ([zip](https://github.com/upptime/graphs/archive/v1.2.11.zip) · [tar.gz](https://github.com/upptime/graphs/archive/v1.2.11.tar.gz))
