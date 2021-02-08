@@ -1,3 +1,12 @@
+## v1.2.13 (2021-02-08)
+
+[📝 Release notes](https://github.com/upptime/graphs/releases/tag/v1.2.13) · [💻 Compare](https://github.com/upptime/graphs/compare/v1.2.12...v1.2.13) · [🔖 Tag](https://github.com/upptime/graphs/tree/v1.2.13) · 🗄️ Archive ([zip](https://github.com/upptime/graphs/archive/v1.2.13.zip) · [tar.gz](https://github.com/upptime/graphs/archive/v1.2.13.tar.gz))
+
+### ⬆️ Dependency updates
+
+- [`c0760d2`](https://github.com/upptime/graphs/commit/c0760d2)  Bump ts-jest from 26.4.4 to 26.5.0
+- [`78481d1`](https://github.com/upptime/graphs/commit/78481d1)  Bump chartjs-node-canvas from 3.0.8 to 3.1.0
+
 ## v1.2.12 (2021-01-28)
 
 [📝 Release notes](https://github.com/upptime/graphs/releases/tag/v1.2.12) · [💻 Compare](https://github.com/upptime/graphs/compare/v1.2.11...v1.2.12) · [🔖 Tag](https://github.com/upptime/graphs/tree/v1.2.12) · 🗄️ Archive ([zip](https://github.com/upptime/graphs/archive/v1.2.12.zip) · [tar.gz](https://github.com/upptime/graphs/archive/v1.2.12.tar.gz))
