@@ -1,3 +1,14 @@
+## v1.2.15 (2021-02-22)
+
+[📝 Release notes](https://github.com/upptime/graphs/releases/tag/v1.2.15) · [💻 Compare](https://github.com/upptime/graphs/compare/v1.2.14...v1.2.15) · [🔖 Tag](https://github.com/upptime/graphs/tree/v1.2.15) · 🗄️ Archive ([zip](https://github.com/upptime/graphs/archive/v1.2.15.zip) · [tar.gz](https://github.com/upptime/graphs/archive/v1.2.15.tar.gz))
+
+### ⬆️ Dependency updates
+
+- [`21301cb`](https://github.com/upptime/graphs/commit/21301cb)  Bump vsoch/pull-request-action from 1.0.13 to 1.0.14
+- [`e8671a3`](https://github.com/upptime/graphs/commit/e8671a3)  Bump pascalgn/automerge-action from v0.13.0 to v0.13.1
+- [`39f6b47`](https://github.com/upptime/graphs/commit/39f6b47)  Bump semantic-release from 17.3.8 to 17.3.9
+- [`4e172ab`](https://github.com/upptime/graphs/commit/4e172ab)  Bump vsoch/pull-request-action from 1.0.14 to 1.0.15
+
 ## v1.2.14 (2021-02-15)
 
 [📝 Release notes](https://github.com/upptime/graphs/releases/tag/v1.2.14) · [💻 Compare](https://github.com/upptime/graphs/compare/v1.2.13...v1.2.14) · [🔖 Tag](https://github.com/upptime/graphs/tree/v1.2.14) · 🗄️ Archive ([zip](https://github.com/upptime/graphs/archive/v1.2.14.zip) · [tar.gz](https://github.com/upptime/graphs/archive/v1.2.14.tar.gz))
