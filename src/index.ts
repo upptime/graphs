@@ -46,7 +46,9 @@ const getUptimeColor = (uptime: number) =>
     ? "orange"
     : "red";
 const getResponseTimeColor = (responseTime: number) =>
-  responseTime < 200
+  responseTime === 0
+    ? "red"
+    : responseTime < 200
     ? "brightgreen"
     : responseTime < 400
     ? "green"
