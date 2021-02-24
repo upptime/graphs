@@ -1,6 +1,6 @@
 {
   "name": "@upptime/graphs",
-  "version": "1.2.15",
+  "version": "1.2.16",
   "description": "Koj's repository template with GitHub Actions CI, releases, and more",
   "main": "dist/index.js",
   "files": [

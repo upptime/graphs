@@ -1,3 +1,15 @@
+## v1.2.16 (2021-02-24)
+
+[📝 Release notes](https://github.com/upptime/graphs/releases/tag/v1.2.16) · [💻 Compare](https://github.com/upptime/graphs/compare/v1.2.15...v1.2.16) · [🔖 Tag](https://github.com/upptime/graphs/tree/v1.2.16) · 🗄️ Archive ([zip](https://github.com/upptime/graphs/archive/v1.2.16.zip) · [tar.gz](https://github.com/upptime/graphs/archive/v1.2.16.tar.gz))
+
+### ♻️ Updates
+
+- [`9b0a1e1`](https://github.com/upptime/graphs/commit/9b0a1e1)  Use red badges for response time 0ms
+
+### ⬆️ Dependency updates
+
+- [`d447c1e`](https://github.com/upptime/graphs/commit/d447c1e)  Bump actions/setup-node from v2.1.4 to v2.1.5
+
 ## v1.2.15 (2021-02-22)
 
 [📝 Release notes](https://github.com/upptime/graphs/releases/tag/v1.2.15) · [💻 Compare](https://github.com/upptime/graphs/compare/v1.2.14...v1.2.15) · [🔖 Tag](https://github.com/upptime/graphs/tree/v1.2.15) · 🗄️ Archive ([zip](https://github.com/upptime/graphs/archive/v1.2.15.zip) · [tar.gz](https://github.com/upptime/graphs/archive/v1.2.15.tar.gz))
