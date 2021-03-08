@@ -1,3 +1,14 @@
+## v1.2.18 (2021-03-08)
+
+[📝 Release notes](https://github.com/upptime/graphs/releases/tag/v1.2.18) · [💻 Compare](https://github.com/upptime/graphs/compare/v1.2.17...v1.2.18) · [🔖 Tag](https://github.com/upptime/graphs/tree/v1.2.18) · 🗄️ Archive ([zip](https://github.com/upptime/graphs/archive/v1.2.18.zip) · [tar.gz](https://github.com/upptime/graphs/archive/v1.2.18.tar.gz))
+
+### ⬆️ Dependency updates
+
+- [`478c2ae`](https://github.com/upptime/graphs/commit/478c2ae)  Bump @types/fs-extra from 9.0.7 to 9.0.8
+- [`9822987`](https://github.com/upptime/graphs/commit/9822987)  Bump semantic-release from 17.4.0 to 17.4.1
+- [`0ff97ad`](https://github.com/upptime/graphs/commit/0ff97ad)  Bump ts-jest from 26.5.2 to 26.5.3
+- [`94bbfde`](https://github.com/upptime/graphs/commit/94bbfde)  Bump typescript from 4.2.2 to 4.2.3
+
 ## v1.2.17 (2021-03-01)
 
 [📝 Release notes](https://github.com/upptime/graphs/releases/tag/v1.2.17) · [💻 Compare](https://github.com/upptime/graphs/compare/v1.2.16...v1.2.17) · [🔖 Tag](https://github.com/upptime/graphs/tree/v1.2.17) · 🗄️ Archive ([zip](https://github.com/upptime/graphs/archive/v1.2.17.zip) · [tar.gz](https://github.com/upptime/graphs/archive/v1.2.17.tar.gz))
