@@ -62,7 +62,7 @@ const getResponseTimeColor = (responseTime: number) =>
 
 export const generateGraphs = async () => {
   const config = load(await readFile(join(".", ".upptimerc.yml"), "utf8")) as {
-    sites: { name: string; url: string }[];
+    sites: { name: string; url: string; slug?: string }[];
     owner: string;
     repo: string;
     userAgent?: string;
@@ -80,7 +80,7 @@ export const generateGraphs = async () => {
   await ensureDir(join(".", "graphs"));
 
   for await (const site of config.sites) {
-    const slug = slugify(site.name);
+    const slug = site.slug ? site.slug : slugify(site.name);
     if (!slug) continue;
 
     let uptime = 0;
