@@ -80,7 +80,7 @@ export const generateGraphs = async () => {
   await ensureDir(join(".", "graphs"));
 
   for await (const site of config.sites) {
-    const slug = site.slug ? site.slug: slugify(site.name);
+    const slug = site.slug ? site.slug : slugify(site.name);
     if (!slug) continue;
 
     let uptime = 0;
