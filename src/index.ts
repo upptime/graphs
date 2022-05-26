@@ -6,8 +6,6 @@ import { ensureDir, ensureFile, readFile, readJson, writeFile, writeJson } from 
 import { load } from "js-yaml";
 import { join } from "path";
 
-const canvasRenderService = new ChartJSNodeCanvas({ width: 600, height: 400 });
-
 /** Get commits for a history file */
 const getHistoryItems = async (
   octokit: Octokit,
@@ -67,6 +65,7 @@ export const generateGraphs = async () => {
     repo: string;
     userAgent?: string;
     PAT?: string;
+    graph: { width: number };
     assignees?: string[];
   };
   const owner = config.owner;
@@ -76,6 +75,8 @@ export const generateGraphs = async () => {
     auth: config.PAT || process.env.GH_PAT || process.env.GITHUB_TOKEN,
     userAgent: config.userAgent || process.env.USER_AGENT || "KojBot",
   });
+
+  const canvasRenderService = new ChartJSNodeCanvas({ width: config.graph.width || 600, height: 400 });
 
   await ensureDir(join(".", "graphs"));
 
