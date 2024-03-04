@@ -155,36 +155,6 @@ export const generateGraphs = async () => {
       message: `${uptimeYear}%`,
       color: getUptimeColor(uptimeYear),
     });
-    await writeJson(join(".", "api", slug, "response-time.json"), {
-      schemaVersion: 1,
-      label: "response time",
-      message: `${responseTime} ms`,
-      color: getResponseTimeColor(responseTime),
-    });
-    await writeJson(join(".", "api", slug, "response-time-day.json"), {
-      schemaVersion: 1,
-      label: "response time 24h",
-      message: `${timeDay} ms`,
-      color: getResponseTimeColor(timeDay),
-    });
-    await writeJson(join(".", "api", slug, "response-time-week.json"), {
-      schemaVersion: 1,
-      label: "response time 7d",
-      message: `${timeWeek} ms`,
-      color: getResponseTimeColor(timeWeek),
-    });
-    await writeJson(join(".", "api", slug, "response-time-month.json"), {
-      schemaVersion: 1,
-      label: "response time 30d",
-      message: `${timeMonth} ms`,
-      color: getResponseTimeColor(timeMonth),
-    });
-    await writeJson(join(".", "api", slug, "response-time-year.json"), {
-      schemaVersion: 1,
-      label: "response time 1y",
-      message: `${timeYear} ms`,
-      color: getResponseTimeColor(timeYear),
-    });
 
     const items = await getHistoryItems(octokit, owner, repo, slug, 1);
     const responseTimes: [string, number][] = items
@@ -212,6 +182,43 @@ export const generateGraphs = async () => {
     const tWeek = responseTimes.filter((i) => dayjs(i[0]).isAfter(dayjs().subtract(1, "week")));
     const tMonth = responseTimes.filter((i) => dayjs(i[0]).isAfter(dayjs().subtract(1, "month")));
     const tYear = responseTimes.filter((i) => dayjs(i[0]).isAfter(dayjs().subtract(1, "year")));
+    
+    await writeJson(join(".", "api", slug, "response-time.json"), {
+      schemaVersion: 1,
+      label: "response time",
+      message: `${responseTime} ms`,
+      color: getResponseTimeColor(responseTime),
+      graphData: [...responseTimes].reverse(),
+    });
+    await writeJson(join(".", "api", slug, "response-time-day.json"), {
+      schemaVersion: 1,
+      label: "response time 24h",
+      message: `${timeDay} ms`,
+      color: getResponseTimeColor(timeDay),
+      graphData: [...tDay].reverse(),
+    });
+    await writeJson(join(".", "api", slug, "response-time-week.json"), {
+      schemaVersion: 1,
+      label: "response time 7d",
+      message: `${timeWeek} ms`,
+      color: getResponseTimeColor(timeWeek),
+      graphData: [...tWeek].reverse(),
+    });
+    await writeJson(join(".", "api", slug, "response-time-month.json"), {
+      schemaVersion: 1,
+      label: "response time 30d",
+      message: `${timeMonth} ms`,
+      color: getResponseTimeColor(timeMonth),
+      graphData: [...tMonth].reverse(),
+    });
+    await writeJson(join(".", "api", slug, "response-time-year.json"), {
+      schemaVersion: 1,
+      label: "response time 1y",
+      message: `${timeYear} ms`,
+      color: getResponseTimeColor(timeYear),
+      graphData: [...tYear].reverse(),
+    });
+
     const dataItems: [string, [string, number][]][] = [
       [`${slug}/response-time-day.png`, tDay],
       [`${slug}/response-time-week.png`, tWeek],
