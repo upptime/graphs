@@ -58,7 +58,7 @@ jobs:
         uses: actions/github-script@v3
         id: should-pr
         with:
-          github-token: ${{ secrets.GH_PAT }}
+          github-token: "${{ secrets.GITHUB_TOKEN }}"
           script: |
             return
               context.payload.ref.startsWith("refs/heads/feature") ||
@@ -68,6 +68,6 @@ jobs:
         uses: vsoch/pull-request-action@1.0.15
         if: always() && steps.should-pr.outputs.result
         env:
-          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
+          GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
           PULL_REQUEST_BRANCH: "master"
           PULL_REQUEST_REVIEWERS: "AnandChowdhary"
