@@ -238,7 +238,9 @@ export const generateGraphs = async () => {
           options: {
             elements: {
               point: {
-                pointStyle: false,
+                radius: 0,
+                hoverRadius: 0,
+                hitRadius: 0,
               },
             },
             legend: { display: false },
