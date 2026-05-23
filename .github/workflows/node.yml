@@ -17,9 +17,10 @@ jobs:
           node-version: 14
           cache: "npm"
       - name: Setup Licensed
-        uses: jonabc/setup-licensed@v1.0.1
+        uses: licensee/setup-licensed@v1.3.2
         with:
-          version: 2.x
+          version: 2.15.2
+          github_token: ${{ secrets.GH_PAT || github.token }}
       - name: Install dependencies
         run: npm ci
       - name: Build TypeScript
@@ -37,10 +38,10 @@ jobs:
           GIT_COMMITTER_EMAIL: "bot@koj.co"
       - name: Check dependency licenses
         id: licensed
-        uses: jonabc/licensed-ci@v1
+        uses: licensee/licensed-ci@v1
         with:
           config_file: .github/licensed.yml
-          github_token: ${{ secrets.GH_PAT }}
+          github_token: ${{ secrets.GH_PAT || github.token }}
           user_name: "KojBot"
           user_email: "bot@koj.co"
           commit_message: ":page_facing_up: Update dependency license file [skip ci]"
