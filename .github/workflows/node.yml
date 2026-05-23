@@ -6,30 +6,20 @@ on:
 jobs:
   release:
     name: Build, test, and release
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-latest
     if: "!contains(github.event.head_commit.message, '[skip ci]')"
     steps:
       - name: Checkout
-        uses: actions/checkout@v2.3.4
+        uses: actions/checkout@v4
       - name: Setup Node.js
-        uses: actions/setup-node@v2.1.5
+        uses: actions/setup-node@v4
         with:
           node-version: 14
+          cache: "npm"
       - name: Setup Licensed
         uses: jonabc/setup-licensed@v1.0.1
         with:
           version: 2.x
-      - name: Cache node modules
-        uses: actions/cache@v2
-        env:
-          cache-name: cache-node-modules
-        with:
-          path: ~/.npm
-          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('**/package-lock.json') }}
-          restore-keys: |
-            ${{ runner.os }}-build-${{ env.cache-name }}-
-            ${{ runner.os }}-build-
-            ${{ runner.os }}-
       - name: Install dependencies
         run: npm ci
       - name: Build TypeScript
@@ -55,13 +45,16 @@ jobs:
           user_email: "bot@koj.co"
           commit_message: ":page_facing_up: Update dependency license file [skip ci]"
       - name: Add PR comment
-        uses: actions/github-script@v3
+        uses: actions/github-script@v7
         if: always() && steps.licensed.outputs.pr_number
         with:
           github-token: ${{ secrets.GH_PAT }}
           script: |
-            github.issues.createComment({
-              ...context.repo,
-              issue_number: ${{ steps.licensed.outputs.pr_number }}
-              body: "I've checked the license of your new dependency and it looks good!"
-            })
+            const issueNumber = Number("${{ steps.licensed.outputs.pr_number }}");
+            if (issueNumber) {
+              await github.rest.issues.createComment({
+                ...context.repo,
+                issue_number: issueNumber,
+                body: "I've checked the license of your new dependency and it looks good!"
+              });
+            }

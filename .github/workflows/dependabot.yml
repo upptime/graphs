@@ -6,7 +6,7 @@ on:
 jobs:
   label-approve:
     name: Label and approve minor/patch updates
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-latest
     steps:
       - uses: koj-co/dependabot-pr-action@master
         with:
