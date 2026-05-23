@@ -1,12 +1,22 @@
 config:
-  - ./*
+  - changed-files:
+      - any-glob-to-any-file: "*"
 tooling:
-  - tooling/**/*.*
+  - changed-files:
+      - any-glob-to-any-file: "tooling/**/*.*"
 assets:
-  - static/**/*.*
+  - changed-files:
+      - any-glob-to-any-file: "static/**/*.*"
 tests:
-  - any: ["src/**/*.spec.js", "cypress/**/*"]
+  - changed-files:
+      - any-glob-to-any-file:
+          - "src/**/*.spec.js"
+          - "cypress/**/*"
 package:
-  - any: ["package.json", "package-lock.json"]
+  - changed-files:
+      - any-glob-to-any-file:
+          - "package.json"
+          - "package-lock.json"
 source:
-  - src/**/*
+  - changed-files:
+      - any-glob-to-any-file: "src/**/*"

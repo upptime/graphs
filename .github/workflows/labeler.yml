@@ -2,17 +2,23 @@ name: Pull Request Labeler
 on:
   - pull_request
   - pull_request_review
+
+permissions:
+  contents: read
+  pull-requests: write
+
 jobs:
   triage:
     runs-on: ubuntu-latest
     steps:
-      - name: Label all PRs
-        uses: actions/labeler@master
+      - name: Label changed files
+        uses: actions/labeler@v6.1.0
         with:
-          repo-token: "${{ secrets.GH_PAT }}"
+          repo-token: "${{ secrets.GH_PAT || github.token }}"
       - name: Label approved PRs
-        uses: koj-co/label-approved-action@master
+        # Pin the current master commit; this action has no release after v1.0.0.
+        uses: koj-co/label-approved-action@5e7f8b5ab37030de670f7ba6ffa911fa9a4848b6
         with:
           labels: "merge"
         env:
-          GITHUB_TOKEN: "${{ secrets.GH_PAT }}"
+          GITHUB_TOKEN: "${{ secrets.GH_PAT || github.token }}"
