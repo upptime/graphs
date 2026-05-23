@@ -38,7 +38,7 @@ jobs:
           GIT_COMMITTER_EMAIL: "bot@koj.co"
       - name: Check dependency licenses
         id: licensed
-        uses: licensee/licensed-ci@v1
+        uses: licensee/licensed-ci@v1.12.1
         with:
           config_file: .github/licensed.yml
           github_token: ${{ secrets.GH_PAT || github.token }}
