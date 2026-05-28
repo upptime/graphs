@@ -52,9 +52,16 @@ jobs:
           GIT_COMMITTER_NAME: "Koj Bot"
           GIT_COMMITTER_EMAIL: "bot@koj.co"
         run: |
-          NPM_EXE=$(npx npm@latest exec -- node -p "process.env.npm_execpath")
-          NPM_PACKAGE_DIR=$(dirname "$(dirname "$NPM_EXE")")
+          NPM_PACKAGE_JSON=$(node - <<'NODE'
+          const { createRequire } = require("module");
+          const requireFromSemanticReleaseNpm = createRequire(require.resolve("@semantic-release/npm"));
+          console.log(requireFromSemanticReleaseNpm.resolve("npm/package.json"));
+          NODE
+          )
+          NPM_PACKAGE_DIR=$(dirname "$NPM_PACKAGE_JSON")
           NPM_BIN_DIR=$(dirname "$NPM_PACKAGE_DIR")/.bin
-          export PATH="$NPM_BIN_DIR:$PATH"
-          npm --version
+          rm -f node_modules/.bin/npm node_modules/.bin/npx
+          ln -s "$NPM_BIN_DIR/npm" node_modules/.bin/npm
+          ln -s "$NPM_BIN_DIR/npx" node_modules/.bin/npx
+          ./node_modules/.bin/npm --version
           ./node_modules/.bin/semantic-release
