@@ -1,3 +1,29 @@
+## v1.2.19 (2026-05-28)
+
+[📝 Release notes](https://github.com/upptime/graphs/releases/tag/v1.2.19) · [💻 Compare](https://github.com/upptime/graphs/compare/v1.2.18...v1.2.19) · [🔖 Tag](https://github.com/upptime/graphs/tree/v1.2.19) · 🗄️ Archive ([zip](https://github.com/upptime/graphs/archive/v1.2.19.zip) · [tar.gz](https://github.com/upptime/graphs/archive/v1.2.19.tar.gz))
+
+### 🐛 Bug fixes
+
+- [`6d9e2ce`](https://github.com/upptime/graphs/commit/6d9e2ce)  Use npm trusted publishing
+
+### ⬆️ Dependency updates
+
+- [`798d0c1`](https://github.com/upptime/graphs/commit/798d0c1)  Bump glob-parent from 5.1.1 to 5.1.2
+- [`8176a20`](https://github.com/upptime/graphs/commit/8176a20)  Bump path-parse from 1.0.6 to 1.0.7
+- [`7e3b533`](https://github.com/upptime/graphs/commit/7e3b533)  Bump tar from 4.4.13 to 4.4.19
+- [`f76adc1`](https://github.com/upptime/graphs/commit/f76adc1)  Bump tmpl from 1.0.4 to 1.0.5
+- [`2775762`](https://github.com/upptime/graphs/commit/2775762)  Bump trim-off-newlines from 1.0.1 to 1.0.3
+- [`3a73e65`](https://github.com/upptime/graphs/commit/3a73e65)  Bump simple-get from 3.1.0 to 3.1.1
+- [`0f6b391`](https://github.com/upptime/graphs/commit/0f6b391)  Bump ssri from 6.0.1 to 6.0.2
+- [`b45a030`](https://github.com/upptime/graphs/commit/b45a030)  Bump node-fetch from 2.6.1 to 2.6.7
+- [`6a67aa2`](https://github.com/upptime/graphs/commit/6a67aa2)  Bump semver-regex from 3.1.2 to 3.1.4
+- [`0941808`](https://github.com/upptime/graphs/commit/0941808)  Bump moment from 2.29.1 to 2.29.4
+- [`1ae187d`](https://github.com/upptime/graphs/commit/1ae187d)  Bump pascalgn/automerge-action from 0.13.1 to 0.15.5
+- [`a88a340`](https://github.com/upptime/graphs/commit/a88a340)  Bump minimatch from 3.0.4 to 3.1.2
+- [`e14a113`](https://github.com/upptime/graphs/commit/e14a113)  Bump decode-uri-component from 0.2.0 to 0.2.2
+- [`908f824`](https://github.com/upptime/graphs/commit/908f824)  Bump qs from 6.5.2 to 6.5.3
+- [`422f26c`](https://github.com/upptime/graphs/commit/422f26c)  Bump json5 from 2.1.3 to 2.2.3
+
 ## v1.2.18 (2021-03-08)
 
 [📝 Release notes](https://github.com/upptime/graphs/releases/tag/v1.2.18) · [💻 Compare](https://github.com/upptime/graphs/compare/v1.2.17...v1.2.18) · [🔖 Tag](https://github.com/upptime/graphs/tree/v1.2.18) · 🗄️ Archive ([zip](https://github.com/upptime/graphs/archive/v1.2.18.zip) · [tar.gz](https://github.com/upptime/graphs/archive/v1.2.18.tar.gz))
