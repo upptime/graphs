@@ -25,3 +25,7 @@ reviewed:
     - sprintf-js
     - string_decoder
     - argparse
+    - safe-buffer
+    - tr46
+    - webidl-conversions
+    - whatwg-url
