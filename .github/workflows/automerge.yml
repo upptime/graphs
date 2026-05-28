@@ -12,6 +12,14 @@ on:
   pull_request_review:
     types:
       - submitted
+
+permissions:
+  checks: read
+  contents: write
+  issues: write
+  pull-requests: write
+  statuses: read
+
 jobs:
   automerge:
     runs-on: ubuntu-latest
@@ -19,7 +27,7 @@ jobs:
       - name: Automerge
         uses: pascalgn/automerge-action@v0.15.5
         env:
-          GITHUB_TOKEN: "${{ secrets.GH_PAT }}"
+          GITHUB_TOKEN: "${{ secrets.GH_PAT || github.token }}"
           MERGE_LABELS: "merge,!work in progress,!wip"
           MERGE_REMOVE_LABELS: "merge"
           MERGE_METHOD: "merge"
@@ -32,4 +40,4 @@ jobs:
         with:
           branches: "!master, !production, *"
         env:
-          GITHUB_TOKEN: "${{ secrets.GH_PAT }}"
+          GITHUB_TOKEN: "${{ secrets.GH_PAT || github.token }}"
