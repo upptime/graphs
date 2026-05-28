@@ -1,3 +1,11 @@
+## v1.2.21 (2026-05-28)
+
+[📝 Release notes](https://github.com/upptime/graphs/releases/tag/v1.2.21) · [💻 Compare](https://github.com/upptime/graphs/compare/v1.2.20...v1.2.21) · [🔖 Tag](https://github.com/upptime/graphs/tree/v1.2.21) · 🗄️ Archive ([zip](https://github.com/upptime/graphs/archive/v1.2.21.zip) · [tar.gz](https://github.com/upptime/graphs/archive/v1.2.21.tar.gz))
+
+### 🐛 Bug fixes
+
+- [`f6415fc`](https://github.com/upptime/graphs/commit/f6415fc)  Complete trusted publishing setup
+
 ## v1.2.20 (2026-05-28)
 
 [📝 Release notes](https://github.com/upptime/graphs/releases/tag/v1.2.20) · [💻 Compare](https://github.com/upptime/graphs/compare/v1.2.19...v1.2.20) · [🔖 Tag](https://github.com/upptime/graphs/tree/v1.2.20) · 🗄️ Archive ([zip](https://github.com/upptime/graphs/archive/v1.2.20.zip) · [tar.gz](https://github.com/upptime/graphs/archive/v1.2.20.tar.gz))
