@@ -19,7 +19,7 @@ jobs:
       startsWith(github.ref, 'refs/heads/bug')
     steps:
       - name: Create or update pull request
-        uses: actions/github-script@v7
+        uses: actions/github-script@v9
         with:
           github-token: ${{ secrets.GH_PAT || github.token }}
           script: |
