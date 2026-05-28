@@ -1,3 +1,11 @@
+## v1.2.20 (2026-05-28)
+
+[📝 Release notes](https://github.com/upptime/graphs/releases/tag/v1.2.20) · [💻 Compare](https://github.com/upptime/graphs/compare/v1.2.19...v1.2.20) · [🔖 Tag](https://github.com/upptime/graphs/tree/v1.2.20) · 🗄️ Archive ([zip](https://github.com/upptime/graphs/archive/v1.2.20.zip) · [tar.gz](https://github.com/upptime/graphs/archive/v1.2.20.tar.gz))
+
+### 🐛 Bug fixes
+
+- [`fb0bbbf`](https://github.com/upptime/graphs/commit/fb0bbbf)  Fix trusted publishing npm CLI
+
 ## v1.2.19 (2026-05-28)
 
 [📝 Release notes](https://github.com/upptime/graphs/releases/tag/v1.2.19) · [💻 Compare](https://github.com/upptime/graphs/compare/v1.2.18...v1.2.19) · [🔖 Tag](https://github.com/upptime/graphs/tree/v1.2.19) · 🗄️ Archive ([zip](https://github.com/upptime/graphs/archive/v1.2.19.zip) · [tar.gz](https://github.com/upptime/graphs/archive/v1.2.19.tar.gz))
