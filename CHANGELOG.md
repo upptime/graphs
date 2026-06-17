@@ -1,3 +1,20 @@
+## v1.2.22 (2026-06-17)
+
+[📝 Release notes](https://github.com/upptime/graphs/releases/tag/v1.2.22) · [💻 Compare](https://github.com/upptime/graphs/compare/v1.2.21...v1.2.22) · [🔖 Tag](https://github.com/upptime/graphs/tree/v1.2.22) · 🗄️ Archive ([zip](https://github.com/upptime/graphs/archive/v1.2.22.zip) · [tar.gz](https://github.com/upptime/graphs/archive/v1.2.22.tar.gz))
+
+### 🔒 Security issues
+
+- [`815f756`](https://github.com/upptime/graphs/commit/815f756)  Bump js-yaml to 4.2.0 (#263)
+(Issues: [`#263`](https://github.com/upptime/graphs/issues/263))
+
+### ⬆️ Dependency updates
+
+- [`e1cf44d`](https://github.com/upptime/graphs/commit/e1cf44d)  Bump actions/setup-node from 4 to 6 (#253)
+(Issues: [`#253`](https://github.com/upptime/graphs/issues/253))- [`b32820b`](https://github.com/upptime/graphs/commit/b32820b)  Bump actions/checkout from 4 to 6 (#258)
+(Issues: [`#258`](https://github.com/upptime/graphs/issues/258))- [`a51d958`](https://github.com/upptime/graphs/commit/a51d958)  Bump pascalgn/automerge-action from 0.15.5 to 0.16.4
+- [`7b429f0`](https://github.com/upptime/graphs/commit/7b429f0)  Bump actions/github-script from 7 to 9 (#260)
+(Issues: [`#260`](https://github.com/upptime/graphs/issues/260))- [`99bc271`](https://github.com/upptime/graphs/commit/99bc271)  Bump CodeQL action to v4
+
 ## v1.2.21 (2026-05-28)
 
 [📝 Release notes](https://github.com/upptime/graphs/releases/tag/v1.2.21) · [💻 Compare](https://github.com/upptime/graphs/compare/v1.2.20...v1.2.21) · [🔖 Tag](https://github.com/upptime/graphs/tree/v1.2.21) · 🗄️ Archive ([zip](https://github.com/upptime/graphs/archive/v1.2.21.zip) · [tar.gz](https://github.com/upptime/graphs/archive/v1.2.21.tar.gz))
