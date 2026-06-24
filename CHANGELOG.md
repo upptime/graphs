@@ -1,3 +1,18 @@
+## v1.2.23 (2026-06-24)
+
+[📝 Release notes](https://github.com/upptime/graphs/releases/tag/v1.2.23) · [💻 Compare](https://github.com/upptime/graphs/compare/v1.2.22...v1.2.23) · [🔖 Tag](https://github.com/upptime/graphs/tree/v1.2.23) · 🗄️ Archive ([zip](https://github.com/upptime/graphs/archive/v1.2.23.zip) · [tar.gz](https://github.com/upptime/graphs/archive/v1.2.23.tar.gz))
+
+### 💄 Interface changes
+
+- [`9234676`](https://github.com/upptime/graphs/commit/9234676)  Hide point markers in generated graphs (#266)
+(Issues: [`#266`](https://github.com/upptime/graphs/issues/266) [`#242`](https://github.com/upptime/graphs/issues/242))
+
+### ⬆️ Dependency updates
+
+- [`92297fd`](https://github.com/upptime/graphs/commit/92297fd)  Bump actions/checkout from 6 to 7 (#264)
+(Issues: [`#264`](https://github.com/upptime/graphs/issues/264))- [`e01e573`](https://github.com/upptime/graphs/commit/e01e573)  Bump actions/stale from 3 to 10 (#265)
+(Issues: [`#265`](https://github.com/upptime/graphs/issues/265))
+
 ## v1.2.22 (2026-06-17)
 
 [📝 Release notes](https://github.com/upptime/graphs/releases/tag/v1.2.22) · [💻 Compare](https://github.com/upptime/graphs/compare/v1.2.21...v1.2.22) · [🔖 Tag](https://github.com/upptime/graphs/tree/v1.2.22) · 🗄️ Archive ([zip](https://github.com/upptime/graphs/archive/v1.2.22.zip) · [tar.gz](https://github.com/upptime/graphs/archive/v1.2.22.tar.gz))
