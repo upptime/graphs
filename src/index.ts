@@ -236,6 +236,13 @@ export const generateGraphs = async () => {
             ],
           },
           options: {
+            elements: {
+              point: {
+                radius: 0,
+                hoverRadius: 0,
+                hitRadius: 0,
+              },
+            },
             legend: { display: false },
             scales: {
               xAxes: [
@@ -276,6 +283,13 @@ export const generateGraphs = async () => {
           ],
         },
         options: {
+          elements: {
+            point: {
+              radius: 0,
+              hoverRadius: 0,
+              hitRadius: 0,
+            },
+          },
           legend: { display: false },
           scales: {
             xAxes: [
