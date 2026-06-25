@@ -1,3 +1,12 @@
+## v1.2.24 (2026-06-25)
+
+[📝 Release notes](https://github.com/upptime/graphs/releases/tag/v1.2.24) · [💻 Compare](https://github.com/upptime/graphs/compare/v1.2.23...v1.2.24) · [🔖 Tag](https://github.com/upptime/graphs/tree/v1.2.24) · 🗄️ Archive ([zip](https://github.com/upptime/graphs/archive/v1.2.24.zip) · [tar.gz](https://github.com/upptime/graphs/archive/v1.2.24.tar.gz))
+
+### 🐛 Bug fixes
+
+- [`61226bf`](https://github.com/upptime/graphs/commit/61226bf)  Support Unicode site names in graphs (#267)
+(Issues: [`#267`](https://github.com/upptime/graphs/issues/267) [`upptime/upptime#933`](https://github.com/upptime/upptime/issues/933))
+
 ## v1.2.23 (2026-06-24)
 
 [📝 Release notes](https://github.com/upptime/graphs/releases/tag/v1.2.23) · [💻 Compare](https://github.com/upptime/graphs/compare/v1.2.22...v1.2.23) · [🔖 Tag](https://github.com/upptime/graphs/tree/v1.2.23) · 🗄️ Archive ([zip](https://github.com/upptime/graphs/archive/v1.2.23.zip) · [tar.gz](https://github.com/upptime/graphs/archive/v1.2.23.tar.gz))
