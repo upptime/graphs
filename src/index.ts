@@ -8,6 +8,32 @@ import { join } from "path";
 
 const canvasRenderService = new ChartJSNodeCanvas({ width: 600, height: 400 });
 
+type SiteConfig = { name: string; url: string; slug?: string };
+
+const sanitizeUnicodeSlug = (name: string): string =>
+  name
+    .normalize("NFKC")
+    .trim()
+    .replace(/[\\/]/g, "-")
+    .replace(/[<>:"|?*#%]/g, "-")
+    .replace(/[\u0000-\u001F\u007F]/g, "")
+    .replace(/\s+/g, "-")
+    .replace(/-+/g, "-")
+    .replace(/^[.-]+|[.-]+$/g, "");
+
+export const getSiteSlug = (site: SiteConfig): string => {
+  const explicitSlug = site.slug?.trim();
+  if (explicitSlug) return explicitSlug;
+
+  const asciiSlug = slugify(site.name);
+  if (asciiSlug) return asciiSlug;
+
+  const unicodeSlug = sanitizeUnicodeSlug(site.name);
+  if (unicodeSlug) return unicodeSlug;
+
+  return slugify(site.url) || "site";
+};
+
 /** Get commits for a history file */
 const getHistoryItems = async (
   octokit: Octokit,
@@ -62,7 +88,7 @@ const getResponseTimeColor = (responseTime: number) =>
 
 export const generateGraphs = async () => {
   const config = load(await readFile(join(".", ".upptimerc.yml"), "utf8")) as {
-    sites: { name: string; url: string; slug?: string }[];
+    sites: SiteConfig[];
     owner: string;
     repo: string;
     userAgent?: string;
@@ -80,7 +106,7 @@ export const generateGraphs = async () => {
   await ensureDir(join(".", "graphs"));
 
   for await (const site of config.sites) {
-    const slug = site.slug ? site.slug : slugify(site.name);
+    const slug = getSiteSlug(site);
     if (!slug) continue;
 
     let uptime = 0;
