@@ -1,3 +1,12 @@
+## v1.2.25 (2026-07-07)
+
+[📝 Release notes](https://github.com/upptime/graphs/releases/tag/v1.2.25) · [💻 Compare](https://github.com/upptime/graphs/compare/v1.2.24...v1.2.25) · [🔖 Tag](https://github.com/upptime/graphs/tree/v1.2.25) · 🗄️ Archive ([zip](https://github.com/upptime/graphs/archive/v1.2.25.zip) · [tar.gz](https://github.com/upptime/graphs/archive/v1.2.25.tar.gz))
+
+### 🔒 Security issues
+
+- [`e12bb33`](https://github.com/upptime/graphs/commit/e12bb33)  Refresh vulnerable lockfile dependencies (#268)
+(Issues: [`#268`](https://github.com/upptime/graphs/issues/268))
+
 ## v1.2.24 (2026-06-25)
 
 [📝 Release notes](https://github.com/upptime/graphs/releases/tag/v1.2.24) · [💻 Compare](https://github.com/upptime/graphs/compare/v1.2.23...v1.2.24) · [🔖 Tag](https://github.com/upptime/graphs/tree/v1.2.24) · 🗄️ Archive ([zip](https://github.com/upptime/graphs/archive/v1.2.24.zip) · [tar.gz](https://github.com/upptime/graphs/archive/v1.2.24.tar.gz))
