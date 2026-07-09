@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Label changed files
-        uses: actions/labeler@v6.1.0
+        uses: actions/labeler@v6.2.0
         with:
           repo-token: "${{ secrets.GH_PAT || github.token }}"
       - name: Label approved PRs
