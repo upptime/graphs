@@ -25,7 +25,7 @@ jobs:
           token: ${{ secrets.GH_PAT || github.token }}
 
       - name: Setup Node.js for legacy build
-        uses: actions/setup-node@v6
+        uses: actions/setup-node@v7
         with:
           node-version: 14
           cache: "npm"
@@ -40,7 +40,7 @@ jobs:
         run: npm run test
 
       - name: Setup Node.js for npm trusted publishing
-        uses: actions/setup-node@v6
+        uses: actions/setup-node@v7
         with:
           node-version: 22
 
