@@ -1,3 +1,23 @@
+## v1.2.26 (2026-08-13)
+
+[📝 Release notes](https://github.com/upptime/graphs/releases/tag/v1.2.26) · [💻 Compare](https://github.com/upptime/graphs/compare/v1.2.25...v1.2.26) · [🔖 Tag](https://github.com/upptime/graphs/tree/v1.2.26) · 🗄️ Archive ([zip](https://github.com/upptime/graphs/archive/v1.2.26.zip) · [tar.gz](https://github.com/upptime/graphs/archive/v1.2.26.tar.gz))
+
+### 🔒 Security issues
+
+- [`cbfa15b`](https://github.com/upptime/graphs/commit/cbfa15b)  Update js-yaml to 4.3.1 (#283)
+(Issues: [`#283`](https://github.com/upptime/graphs/issues/283))
+
+### ⬆️ Dependency updates
+
+- [`fe97005`](https://github.com/upptime/graphs/commit/fe97005)  Bump actions/labeler from 6.1.0 to 6.2.0
+- [`f508d4a`](https://github.com/upptime/graphs/commit/f508d4a)  Bump actions/setup-node from 6 to 7 (#270)
+(Issues: [`#270`](https://github.com/upptime/graphs/issues/270))- [`cd0e31b`](https://github.com/upptime/graphs/commit/cd0e31b)  Bump actions/labeler from 6.2.0 to 7.0.0 (#271)
+(Issues: [`#271`](https://github.com/upptime/graphs/issues/271))- [`dfc0217`](https://github.com/upptime/graphs/commit/dfc0217)  Bump actions/stale from 10 to 11 (#274)
+(Issues: [`#274`](https://github.com/upptime/graphs/issues/274))- [`8b9d3fe`](https://github.com/upptime/graphs/commit/8b9d3fe)  Bump github/codeql-action to v4.37.3 (#278)
+(Issues: [`#278`](https://github.com/upptime/graphs/issues/278))- [`d27bb17`](https://github.com/upptime/graphs/commit/d27bb17)  Bump github/codeql-action from 4.37.3 to 4.37.4
+- [`e41c59d`](https://github.com/upptime/graphs/commit/e41c59d)  Bump github/codeql-action from 4.37.4 to 4.37.5
+- [`747edb4`](https://github.com/upptime/graphs/commit/747edb4)  Bump github/codeql-action from 4.37.5 to 4.37.6
+
 ## v1.2.25 (2026-07-07)
 
 [📝 Release notes](https://github.com/upptime/graphs/releases/tag/v1.2.25) · [💻 Compare](https://github.com/upptime/graphs/compare/v1.2.24...v1.2.25) · [🔖 Tag](https://github.com/upptime/graphs/tree/v1.2.25) · 🗄️ Archive ([zip](https://github.com/upptime/graphs/archive/v1.2.25.zip) · [tar.gz](https://github.com/upptime/graphs/archive/v1.2.25.tar.gz))
