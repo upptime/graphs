@@ -1,3 +1,12 @@
+## v1.2.27 (2026-08-16)
+
+[📝 Release notes](https://github.com/upptime/graphs/releases/tag/v1.2.27) · [💻 Compare](https://github.com/upptime/graphs/compare/v1.2.26...v1.2.27) · [🔖 Tag](https://github.com/upptime/graphs/tree/v1.2.27) · 🗄️ Archive ([zip](https://github.com/upptime/graphs/archive/v1.2.27.zip) · [tar.gz](https://github.com/upptime/graphs/archive/v1.2.27.tar.gz))
+
+### 🔒 Security issues
+
+- [`b61f0eb`](https://github.com/upptime/graphs/commit/b61f0eb)  Update brace-expansion to 1.1.18 (#285)
+(Issues: [`#285`](https://github.com/upptime/graphs/issues/285))
+
 ## v1.2.26 (2026-08-13)
 
 [📝 Release notes](https://github.com/upptime/graphs/releases/tag/v1.2.26) · [💻 Compare](https://github.com/upptime/graphs/compare/v1.2.25...v1.2.26) · [🔖 Tag](https://github.com/upptime/graphs/tree/v1.2.26) · 🗄️ Archive ([zip](https://github.com/upptime/graphs/archive/v1.2.26.zip) · [tar.gz](https://github.com/upptime/graphs/archive/v1.2.26.tar.gz))
