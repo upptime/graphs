@@ -1,3 +1,11 @@
+## v1.2.30 (2026-09-04)
+
+[📝 Release notes](https://github.com/upptime/graphs/releases/tag/v1.2.30) · [💻 Compare](https://github.com/upptime/graphs/compare/v1.2.29...v1.2.30) · [🔖 Tag](https://github.com/upptime/graphs/tree/v1.2.30) · 🗄️ Archive ([zip](https://github.com/upptime/graphs/archive/v1.2.30.zip) · [tar.gz](https://github.com/upptime/graphs/archive/v1.2.30.tar.gz))
+
+### ⬆️ Dependency updates
+
+- [`e7ad05b`](https://github.com/upptime/graphs/commit/e7ad05b)  Bump github/codeql-action from 4.37.8 to 4.37.9
+
 ## v1.2.29 (2026-08-29)
 
 [📝 Release notes](https://github.com/upptime/graphs/releases/tag/v1.2.29) · [💻 Compare](https://github.com/upptime/graphs/compare/v1.2.28...v1.2.29) · [🔖 Tag](https://github.com/upptime/graphs/tree/v1.2.29) · 🗄️ Archive ([zip](https://github.com/upptime/graphs/archive/v1.2.29.zip) · [tar.gz](https://github.com/upptime/graphs/archive/v1.2.29.tar.gz))
