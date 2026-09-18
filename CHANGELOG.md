@@ -1,3 +1,16 @@
+## v1.2.31 (2026-09-18)
+
+[📝 Release notes](https://github.com/upptime/graphs/releases/tag/v1.2.31) · [💻 Compare](https://github.com/upptime/graphs/compare/v1.2.30...v1.2.31) · [🔖 Tag](https://github.com/upptime/graphs/tree/v1.2.31) · 🗄️ Archive ([zip](https://github.com/upptime/graphs/archive/v1.2.31.zip) · [tar.gz](https://github.com/upptime/graphs/archive/v1.2.31.tar.gz))
+
+### 🔒 Security issues
+
+- [`0410ea2`](https://github.com/upptime/graphs/commit/0410ea2)  Update js-yaml to patched releases (#305)
+(Issues: [`#305`](https://github.com/upptime/graphs/issues/305))
+
+### ⬆️ Dependency updates
+
+- [`4e3aff2`](https://github.com/upptime/graphs/commit/4e3aff2)  Bump github/codeql-action from 4.37.9 to 4.38.0
+
 ## v1.2.30 (2026-09-04)
 
 [📝 Release notes](https://github.com/upptime/graphs/releases/tag/v1.2.30) · [💻 Compare](https://github.com/upptime/graphs/compare/v1.2.29...v1.2.30) · [🔖 Tag](https://github.com/upptime/graphs/tree/v1.2.30) · 🗄️ Archive ([zip](https://github.com/upptime/graphs/archive/v1.2.30.zip) · [tar.gz](https://github.com/upptime/graphs/archive/v1.2.30.tar.gz))
