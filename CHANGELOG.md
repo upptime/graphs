@@ -1,3 +1,20 @@
+## v1.2.32 (2026-10-15)
+
+[📝 Release notes](https://github.com/upptime/graphs/releases/tag/v1.2.32) · [💻 Compare](https://github.com/upptime/graphs/compare/v1.2.31...v1.2.32) · [🔖 Tag](https://github.com/upptime/graphs/tree/v1.2.32) · 🗄️ Archive ([zip](https://github.com/upptime/graphs/archive/v1.2.32.zip) · [tar.gz](https://github.com/upptime/graphs/archive/v1.2.32.tar.gz))
+
+### 🔒 Security issues
+
+- [`a1e6d53`](https://github.com/upptime/graphs/commit/a1e6d53)  Update handlebars with npm v1 lockfile (#316)
+(Issues: [`#316`](https://github.com/upptime/graphs/issues/316) [`#315`](https://github.com/upptime/graphs/issues/315))
+
+### ⬆️ Dependency updates
+
+- [`bdbdaff`](https://github.com/upptime/graphs/commit/bdbdaff)  Bump github/codeql-action from 4.38.0 to 4.38.1
+- [`4d39aa7`](https://github.com/upptime/graphs/commit/4d39aa7)  Bump release GitHub plugin with npm v1 lockfile (#307)
+(Issues: [`#307`](https://github.com/upptime/graphs/issues/307))- [`0bbc593`](https://github.com/upptime/graphs/commit/0bbc593)  Bump github/codeql-action from 4.38.1 to 4.38.2
+- [`c431c7d`](https://github.com/upptime/graphs/commit/c431c7d)  Bump brace-expansion with npm v1 lockfile (#312)
+(Issues: [`#312`](https://github.com/upptime/graphs/issues/312))- [`c1b0f15`](https://github.com/upptime/graphs/commit/c1b0f15)  Bump github/codeql-action from 4.38.2 to 4.38.3
+
 ## v1.2.31 (2026-09-18)
 
 [📝 Release notes](https://github.com/upptime/graphs/releases/tag/v1.2.31) · [💻 Compare](https://github.com/upptime/graphs/compare/v1.2.30...v1.2.31) · [🔖 Tag](https://github.com/upptime/graphs/tree/v1.2.31) · 🗄️ Archive ([zip](https://github.com/upptime/graphs/archive/v1.2.31.zip) · [tar.gz](https://github.com/upptime/graphs/archive/v1.2.31.tar.gz))
