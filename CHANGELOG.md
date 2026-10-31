@@ -1,3 +1,16 @@
+## v1.2.34 (2026-10-31)
+
+[📝 Release notes](https://github.com/upptime/graphs/releases/tag/v1.2.34) · [💻 Compare](https://github.com/upptime/graphs/compare/v1.2.33...v1.2.34) · [🔖 Tag](https://github.com/upptime/graphs/tree/v1.2.34) · 🗄️ Archive ([zip](https://github.com/upptime/graphs/archive/v1.2.34.zip) · [tar.gz](https://github.com/upptime/graphs/archive/v1.2.34.tar.gz))
+
+### 🔒 Security issues
+
+- [`57b8f9a`](https://github.com/upptime/graphs/commit/57b8f9a)  Patch unbundled undici copies with npm v1 lockfile (#322)
+(Issues: [`#322`](https://github.com/upptime/graphs/issues/322))
+
+### ⬆️ Dependency updates
+
+- [`5422a60`](https://github.com/upptime/graphs/commit/5422a60)  Bump github/codeql-action from 4.39.0 to 4.39.1
+
 ## v1.2.33 (2026-10-20)
 
 [📝 Release notes](https://github.com/upptime/graphs/releases/tag/v1.2.33) · [💻 Compare](https://github.com/upptime/graphs/compare/v1.2.32...v1.2.33) · [🔖 Tag](https://github.com/upptime/graphs/tree/v1.2.33) · 🗄️ Archive ([zip](https://github.com/upptime/graphs/archive/v1.2.33.zip) · [tar.gz](https://github.com/upptime/graphs/archive/v1.2.33.tar.gz))
